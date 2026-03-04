@@ -1,0 +1,146 @@
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { AnimatedSection, AnimatedCard } from './AnimationWrappers';
+import { useLanguage } from './LanguageContext';
+import { translations, t } from './translations';
+
+// Import images from Tunisi slideshow
+import imgMg0613_Tunisi from "figma:asset/74e4308cad30864484de719a287bcb82185cb92a.png";
+import imgMg0615_Tunisi from "figma:asset/584c786ec90234b2bd8b709a522ef9e4fd635e90.png";
+import imgMg0619_Tunisi from "figma:asset/b1908aa437df22b746d4a82691af9138e03396ab.png";
+import imgMg0596_Tunisi from "figma:asset/fe855244ee59c77e36a5318a424750d6cf004001.png";
+import imgMg0598_Tunisi from "figma:asset/c8df1658cce6f6331f3cca353d966121e71497d4.png";
+import imgMg0599_Tunisi from "figma:asset/20ad1018164f7b3b22ccd85217a410d19fa07537.png";
+import imgMg0600_Tunisi from "figma:asset/2060354063aaa98d2442bed9f93566cfefe7b1ad.png";
+import imgMg0608_Tunisi from "figma:asset/84548a22aff1fa0c0535806a9fb298c6e676550d.png";
+
+// Import images from Hospital slideshow
+import imgMg0613_Hospital from "figma:asset/d7336adf9f8574500682a0adece769ec7f75a62b.png";
+
+const articleImages = [
+  [
+    imgMg0613_Tunisi,
+    imgMg0596_Tunisi,
+    imgMg0600_Tunisi,
+    imgMg0615_Tunisi,
+    imgMg0598_Tunisi,
+    imgMg0608_Tunisi,
+    imgMg0619_Tunisi,
+    imgMg0599_Tunisi,
+  ],
+  [
+    imgMg0613_Hospital,
+    imgMg0615_Tunisi,
+    imgMg0619_Tunisi,
+    imgMg0596_Tunisi,
+    imgMg0598_Tunisi,
+    imgMg0599_Tunisi,
+    imgMg0600_Tunisi,
+    imgMg0608_Tunisi,
+  ],
+];
+
+interface NewsCardProps {
+  articleIndex: number;
+  cardIndex: number;
+}
+
+function NewsCard({ articleIndex, cardIndex }: NewsCardProps) {
+  const { lang, isRTL } = useLanguage();
+  const newsT = translations.news;
+  const article = newsT.articles[articleIndex];
+  const images = articleImages[articleIndex];
+
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    rtl: isRTL,
+    className: 'news-slider',
+  };
+
+  return (
+    <AnimatedCard index={cardIndex}>
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all group h-full flex flex-col">
+        {/* Image Slider */}
+        <div className="relative h-80 overflow-hidden">
+          <Slider {...sliderSettings}>
+            {images.map((image, index) => (
+              <div key={index} className="relative h-80">
+                <img
+                  src={image}
+                  alt={`${t(article.title, lang)} - ${index + 1}`}
+                  className="w-full h-80 object-cover"
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
+
+        {/* Content */}
+        <div className="p-6 flex flex-col flex-grow">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="h-1 w-12 bg-[#f8931f] rounded-full"></div>
+            <span className="text-sm text-[#713d00] uppercase tracking-wider">{t(newsT.newsLabel, lang)}</span>
+          </div>
+          
+          <h3 className="text-2xl mb-4 text-[#502800] group-hover:text-[#f8931f] transition-colors">
+            {t(article.title, lang)}
+          </h3>
+          
+          <p className="text-[#713d00] leading-relaxed mb-6 flex-grow">
+            {t(article.description, lang)}
+          </p>
+
+          <button className="bg-[#f8931f] hover:bg-[#db8200] text-white px-6 py-3 rounded-lg transition-colors flex items-center gap-2 group-hover:gap-3 w-fit">
+            <span className="whitespace-nowrap">{t(newsT.readMore, lang)}</span>
+            <svg 
+              className={`w-5 h-5 transition-transform ${isRTL ? 'rotate-180 group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`}
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </AnimatedCard>
+  );
+}
+
+export function News() {
+  const { lang } = useLanguage();
+  const newsT = translations.news;
+
+  return (
+    <AnimatedSection>
+      <section id="news" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl mb-6 text-[#502800]">
+              {t(newsT.title1, lang)} <span className="text-[#f8931f]">{t(newsT.titleHighlight, lang)}</span>
+            </h2>
+            <p className="text-xl text-[#713d00] max-w-3xl mx-auto">
+              {t(newsT.subtitle, lang)}
+            </p>
+          </div>
+
+          {/* News Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {newsT.articles.map((_, index) => (
+              <NewsCard key={index} articleIndex={index} cardIndex={index} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </AnimatedSection>
+  );
+}
