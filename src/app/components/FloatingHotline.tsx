@@ -8,7 +8,7 @@ export function FloatingHotline() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="fixed bottom-24 start-5 z-50">
+    <div className="fixed bottom-24 end-5 z-50">
       <AnimatePresence>
         {isExpanded && (
           <motion.div

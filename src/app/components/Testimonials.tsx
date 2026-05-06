@@ -3,7 +3,7 @@ import { AnimatedSection, AnimatedCard } from './AnimationWrappers';
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 
-const ratings = [5, 5, 5, 4, 5, 5];
+const ratings = [5, 5, 5, 5, 5, 5];
 
 export function Testimonials() {
   const { lang } = useLanguage();

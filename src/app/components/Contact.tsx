@@ -17,7 +17,8 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    const mailtoLink = `mailto:cs@fathallamarket.com.eg?subject=Message from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AMessage: ${formData.message}`;
+    window.location.href = mailtoLink;
   };
 
   return (

@@ -102,52 +102,52 @@ export const translations = {
     },
     reviews: [
       {
-        name: { ar: 'أحمد حسن', en: 'Ahmed Hassan' },
+        name: { ar: 'محمد ربيع النجيلى', en: 'Mohamed Rabie El-Nigeily' },
         comment: {
-          ar: 'فتح الله ماركت هو سوبرماركتي المفضل منذ سنوات. جودة المنتجات استثنائية، والموظفون دائماً متعاونون وودودون.',
-          en: 'Fathalla Market has been my go-to supermarket for years. The quality of products is exceptional, and the staff is always helpful and friendly.',
-        },
-        location: { ar: 'القاهرة، مصر', en: 'Cairo, Egypt' },
-      },
-      {
-        name: { ar: 'سارة محمد', en: 'Sara Mohamed' },
-        comment: {
-          ar: 'أحب التسوق في فتح الله! قسم الخضروات والفواكه الطازجة رائع، وأجد دائماً كل ما أحتاجه في مكان واحد. أنصح به بشدة!',
-          en: 'I love shopping at Fathalla! Their fresh produce section is amazing, and I can always find everything I need in one place. Highly recommended!',
-        },
-        location: { ar: 'الجيزة، مصر', en: 'Giza, Egypt' },
-      },
-      {
-        name: { ar: 'عمر إبراهيم', en: 'Omar Ibrahim' },
-        comment: {
-          ar: 'خدمة التوصيل المنزلي رائعة! طلباتي تصل دائماً طازجة وفي الوقت المحدد. فتح الله ماركت جعل حياتي أسهل بكثير.',
-          en: 'The home delivery service is fantastic! My orders always arrive fresh and on time. Fathalla Market has made my life so much easier.',
+          ar: 'فيه عروض قبل العيد في قسم البقالة واللحوم ؟',
+          en: 'Are there any pre-Eid offers in the grocery and meat department?',
         },
         location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
       },
       {
-        name: { ar: 'ليلى علي', en: 'Layla Ali' },
+        name: { ar: 'ميسرة فوزي أحمد', en: 'Maysara Fawzi Ahmed' },
         comment: {
-          ar: 'تنوع رائع في المنتجات بأسعار تنافسية. التطبيق سهل الاستخدام ويجعل التسوق مريحاً. عميلة راضية جداً!',
-          en: 'Great variety of products at competitive prices. The mobile app is user-friendly and makes shopping convenient. Very satisfied customer!',
+          ar: 'كل عام وكل العاملين بالمؤسسة بصحه وستر من الله',
+          en: 'Happy new year to all employees of the institution, with health and protection from God',
         },
-        location: { ar: 'مصر الجديدة، مصر', en: 'Heliopolis, Egypt' },
+        location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
       },
       {
-        name: { ar: 'خالد محمود', en: 'Khaled Mahmoud' },
+        name: { ar: 'محمد يوسف', en: 'Mohamed Yousef' },
         comment: {
-          ar: 'أفضل سوبرماركت في المدينة! نظيف ومنظم ولديهم دائماً عروض خاصة. جودة اللحوم ومنتجات الألبان ممتازة.',
-          en: 'Best supermarket in town! Clean, organized, and they always have special offers. The quality of their meat and dairy products is outstanding.',
+          ar: 'رحالة فنية الله... يارب ديما معروفين كل ناس وكل امهات مصر',
+          en: 'Amazing journey, God bless... May you always be known to everyone and all the mothers of Egypt',
         },
-        location: { ar: 'مدينة نصر، مصر', en: 'Nasr City, Egypt' },
+        location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
       },
       {
-        name: { ar: 'فاطمة يوسف', en: 'Fatima Youssef' },
+        name: { ar: 'رحاب محمد سلامة', en: 'Rehab Mohamed Salama' },
         comment: {
-          ar: 'أقدر التزامهم بالسلامة والنظافة. المتاجر دائماً نظيفة، والموظفون يتبعون جميع البروتوكولات الصحية. خدمة ممتازة!',
-          en: 'I appreciate their commitment to safety and hygiene. The stores are always clean, and the staff follows all health protocols. Excellent service!',
+          ar: 'فتح الله العشق',
+          en: 'Fathalla is love',
         },
-        location: { ar: 'المعادي، مصر', en: 'Maadi, Egypt' },
+        location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
+      },
+      {
+        name: { ar: 'صوفيا قاسمة', en: 'Sofia Oasmma Mo' },
+        comment: {
+          ar: 'كان نفسي اكسبوا مكنونك',
+          en: 'I wish I could win your treasures',
+        },
+        location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
+      },
+      {
+        name: { ar: 'حور الدنيا', en: 'Hour El Donia' },
+        comment: {
+          ar: 'متاح توصيل الهانوفيل يافندم وسعر القهوة البن الفاتح',
+          en: 'Is delivery available to Hanoville, and what is the price of light roast coffee?',
+        },
+        location: { ar: 'الإسكندرية، مصر', en: 'Alexandria, Egypt' },
       },
     ],
   },
@@ -157,8 +157,8 @@ export const translations = {
     title1: { ar: '', en: 'Our' },
     titleHighlight: { ar: 'فروعنا', en: 'Branches' },
     subtitle: {
-      ar: 'ابحث عن أقرب فرع لفتح الله ماركت. لدينا فروع متعددة في جميع أنحاء الإسكندرية لخدمتكم بشكل أفضل.',
-      en: 'Find a Fathalla Market near you. We have multiple locations across Alexandria to serve you better.',
+      ar: 'ابحث عن أقرب فرع لفتح الله ماركت. لدينا فروع متعددة في جميع أنحاء مصر لخدمتكم بشكل أفضل.',
+      en: 'Find a Fathalla Market near you. We have multiple locations across Egypt to serve you better.',
     },
     getDirections: { ar: 'الاتجاهات', en: 'Directions' },
     allAreas: { ar: 'جميع المناطق', en: 'All Areas' },
@@ -208,7 +208,7 @@ export const translations = {
     phone: { ar: 'الهاتف', en: 'Phone' },
     email: { ar: 'البريد الإلكتروني', en: 'Email' },
     workingHours: { ar: 'ساعات العمل', en: 'Working Hours' },
-    workingHoursValue1: { ar: 'يومياً: 9:00 صباحاً - 10:00 مساءً', en: 'Daily: 9:00 AM - 10:00 PM' },
+    workingHoursValue1: { ar: 'يومياً: 8:00 صباحاً - 2:00 مساءً', en: 'Daily: 8:00 AM - 2:00 PM' },
     workingHoursValue2: { ar: '', en: '' },
     sendMessage: { ar: 'أرسل لنا رسالة', en: 'Send us a Message' },
     name: { ar: 'الاسم', en: 'Name' },
@@ -220,7 +220,7 @@ export const translations = {
 
   // Footer
   footer: {
-    brandName: { ar: 'فتح الله ماركت', en: 'Fathalla Market' },
+    brandName: { ar: 'فتح الله ما��كت', en: 'Fathalla Market' },
     description: {
       ar: 'سوبرماركتك الموثوق لأكثر من 70 عاماً. منتجات عالية الجودة، أسعار تنافسية، وخدمة ممتازة.',
       en: 'Your trusted supermarket for over 70 years. Quality products, competitive prices, and excellent service.',

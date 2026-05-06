@@ -94,21 +94,9 @@ function NewsCard({ articleIndex, cardIndex }: NewsCardProps) {
             {t(article.title, lang)}
           </h3>
           
-          <p className="text-[#713d00] leading-relaxed mb-6 flex-grow">
+          <p className="text-[#713d00] leading-relaxed flex-grow">
             {t(article.description, lang)}
           </p>
-
-          <button className="bg-[#f8931f] hover:bg-[#db8200] text-white px-6 py-3 rounded-lg transition-colors flex items-center gap-2 group-hover:gap-3 w-fit">
-            <span className="whitespace-nowrap">{t(newsT.readMore, lang)}</span>
-            <svg 
-              className={`w-5 h-5 transition-transform ${isRTL ? 'rotate-180 group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`}
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </button>
         </div>
       </div>
     </AnimatedCard>

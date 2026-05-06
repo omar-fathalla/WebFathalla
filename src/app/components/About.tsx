@@ -65,7 +65,7 @@ export function About() {
             <div className="text-[#713d00]">{t(about.stats.years, lang)}</div>
           </AnimatedStaggerItem>
           <AnimatedStaggerItem className="text-center">
-            <div className="text-4xl md:text-5xl text-[#f8931f] mb-2">50+</div>
+            <div className="text-4xl md:text-5xl text-[#f8931f] mb-2">30+</div>
             <div className="text-[#713d00]">{t(about.stats.stores, lang)}</div>
           </AnimatedStaggerItem>
           <AnimatedStaggerItem className="text-center">
@@ -73,7 +73,7 @@ export function About() {
             <div className="text-[#713d00]">{t(about.stats.products, lang)}</div>
           </AnimatedStaggerItem>
           <AnimatedStaggerItem className="text-center">
-            <div className="text-4xl md:text-5xl text-[#f8931f] mb-2">1M+</div>
+            <div className="text-4xl md:text-5xl text-[#f8931f] mb-2">3M+</div>
             <div className="text-[#713d00]">{t(about.stats.customers, lang)}</div>
           </AnimatedStaggerItem>
         </AnimatedStagger>

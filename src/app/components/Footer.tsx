@@ -95,20 +95,7 @@ export function Footer() {
             </div>
 
             {/* Newsletter */}
-            <div>
-              <h3 className="text-lg mb-4">{t(ft.subscribe, lang)}</h3>
-              <p className="text-gray-300 mb-4">{t(ft.subscribeDesc, lang)}</p>
-              <form className="flex flex-col gap-2">
-                <input
-                  type="email"
-                  placeholder={t(ft.yourEmail, lang)}
-                  className="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#f8931f]"
-                />
-                <button className="bg-[#f8931f] hover:bg-[#db8200] text-white py-2 rounded-lg transition-colors">
-                  {t(ft.subscribeBtn, lang)}
-                </button>
-              </form>
-            </div>
+            {/* Newsletter section removed */}
           </div>
 
           {/* Social Media & Copyright */}
@@ -129,7 +116,7 @@ export function Footer() {
             {/* Social Media Icons */}
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/aswaqfathallamarket"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#f8931f] rounded-lg flex items-center justify-center transition-colors"
@@ -139,23 +126,13 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/aswaq.fathallamarket/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#f8931f] rounded-lg flex items-center justify-center transition-colors"
               >
                 <svg width="20" height="20" viewBox="0 0 46 46" fill="currentColor">
                   <path d={svgPaths.p23678a80} />
-                </svg>
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 hover:bg-[#f8931f] rounded-lg flex items-center justify-center transition-colors"
-              >
-                <svg width="20" height="20" viewBox="0 0 46 46" fill="currentColor">
-                  <path d={svgPaths.p2e79a00} />
                 </svg>
               </a>
               <a
