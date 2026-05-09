@@ -27,7 +27,7 @@ export function Footer() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl">{t(ft.brandName, lang)}</h3>
+                <h3 className="text-xl text-[#f8931f]">فتح الله ماركت</h3>
               </div>
               <p className="text-gray-300 mb-4">
                 {t(ft.description, lang)}

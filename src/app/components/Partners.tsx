@@ -8,6 +8,7 @@ import newPartnerLogo from "../../imports/image-4.png";
 import secondPartnerLogo from "../../imports/image-5.png";
 import juhaynaLogo from "../../imports/juhayna_arabic.png";
 import partner8Logo from "../../imports/image-6.png";
+import partner9Logo from "../../imports/image-7.png";
 import { AnimatedSection, AnimatedCard } from './AnimationWrappers';
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
@@ -44,8 +45,8 @@ export function Partners() {
           <AnimatedCard index={1}>
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center group hover:scale-105 h-32">
               <img
-                src={secondPartnerLogo}
-                alt="P&G"
+                src={partner9Logo}
+                alt="Partner Logo"
                 className="max-h-20 max-w-full object-contain grayscale group-hover:grayscale-0 transition-all"
               />
             </div>
