@@ -136,7 +136,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/fathalla-markets?trk=experience-timeline"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#f8931f] rounded-lg flex items-center justify-center transition-colors"

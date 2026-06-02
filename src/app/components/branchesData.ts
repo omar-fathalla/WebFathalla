@@ -57,7 +57,7 @@ export const branches: Branch[] = [
     name: { ar: 'سيدي جابر 2', en: 'Sidi Gaber 2' },
     address: { ar: 'خلف محطة سيدي جابر', en: 'Behind Sidi Gaber Station' },
     area: { ar: 'الإسكندرية', en: 'Alexandria' },
-    mapUrl: null,
+    mapUrl: 'https://maps.app.goo.gl/aAMYggvBS8Mzvf5AA',
   },
   {
     id: 'sidi-gaber-3',
@@ -229,7 +229,7 @@ export const branches: Branch[] = [
     name: { ar: 'المحلة', en: 'El-Mahalla' },
     address: { ar: 'أبراج النصر، عمارة رقم 4، بلوك 2', en: 'Al-Nasr Towers, Bldg 4, Block 2' },
     area: { ar: 'محافظات الدلتا', en: 'Delta Provinces' },
-    mapUrl: null,
+    mapUrl: 'https://maps.app.goo.gl/kvBiH8tT4JA5ztCcA',
   },
   {
     id: 'kafr-el-dawar-2',
@@ -237,6 +237,20 @@ export const branches: Branch[] = [
     address: { ar: 'شارع المحكمة، كفر الدوار', en: 'Mahkama St., Kafr El-Dawar' },
     area: { ar: 'محافظات الدلتا', en: 'Delta Provinces' },
     mapUrl: 'https://maps.app.goo.gl/Yi3f96pKFzafY6by6',
+  },
+  {
+    id: 'badr-cairo',
+    name: { ar: 'بدر', en: 'Badr' },
+    address: { ar: 'الفود كورت، مدينة بدر، محافظة القاهرة', en: 'Food Court, Badr City, Cairo Governorate' },
+    area: { ar: 'القاهرة', en: 'Cairo' },
+    mapUrl: 'https://maps.app.goo.gl/sYV1LiBDsrc8moL87',
+  },
+  {
+    id: 'el-rehab',
+    name: { ar: 'الرحاب', en: 'El-Rehab' },
+    address: { ar: 'الرحاب، القاهرة الجديدة 2، محافظة القاهرة 4750130', en: 'Rehab, Second New Cairo, Cairo Governorate 4750130' },
+    area: { ar: 'القاهرة', en: 'Cairo' },
+    mapUrl: 'https://maps.app.goo.gl/tesvSwY9kFnA1AWk6',
   },
 
   // Damietta

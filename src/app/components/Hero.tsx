@@ -68,7 +68,9 @@ export function Hero({ heroImage }: HeroProps) {
                 </div>
               </motion.a>
               <motion.a
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.fathallamarket.trustystore"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-black hover:bg-gray-900 text-white px-6 py-3 rounded-lg transition-colors flex items-center gap-2"
