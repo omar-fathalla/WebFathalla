@@ -20,6 +20,11 @@ export const translations = {
     },
     downloadApp: { ar: 'حمّل تطبيقنا', en: 'Download Our App' },
     exploreProducts: { ar: 'تصفح المنتجات', en: 'Explore Products' },
+    ecommerceTitle: { ar: 'المتجر الإلكتروني', en: 'E-commerce Store' },
+    ecommerceDesc: { 
+      ar: 'انطلاقًا من حرصنا على التقدم، وفرنا متجرًا إلكترونيًا متطورًا يوفر تجربة تسوق سهلة وآمنة، مع خدمات توصيل تشمل جميع المناطق لتصبح راحتك أولويتنا.',
+      en: 'In pursuit of progress, we launched a modern e-commerce store that provides an easy and secure shopping experience, with delivery services covering all areas, making your comfort our top priority.'
+    },
   },
 
   // About
@@ -27,6 +32,26 @@ export const translations = {
     title1: { ar: 'عن', en: 'About' },
     titleBrand: { ar: 'فتح الله', en: 'Fathalla' },
     title2: { ar: 'ماركت', en: 'Markets' },
+    whoWeAreTitle: { ar: 'من نحن', en: 'Who We Are' },
+    whoWeAreDesc: {
+      ar: 'نحن مؤسسة فتح الله، الرائدة في مجال بيع السلع الاستهلاكية بالجملة منذ عام 1948. بدأت رحلتنا في أسواق المنشية ببيع العطارة والحبوب والبن والشاي، ثم توسعنا لنغطي المعلبات، المواد الغذائية والمنظفات على مستوى الجمهورية. وبفضل التطوير الدائم والاستيراد من الخارج، أصبحت شركة "مسعد فتح الله وإخوته" من أكبر المستوردين في الشرق الأوسط، مع حرصنا على فتح سلسلة فروع للبيع المباشر للمستهلك بأسعار الجملة.',
+      en: 'We are Fathalla, a leading institution in wholesale consumer goods since 1948. Our journey began in El-Manshia markets with spices, grains, coffee, and tea, then expanded to cover canned food, groceries, and detergents nationwide. Through continuous development and imports, “Massad Fathalla & Brothers” has become one of the largest importers in the Middle East, while also establishing a chain of branches for direct sales to customers at wholesale prices.',
+    },
+    messageTitle: { ar: 'رسالتنا', en: 'Our Message' },
+    messageDesc: {
+      ar: 'مؤسسة فتح الله مشروع وطني يهدف إلى تلبية طموحات واحتياجات العملاء بتوفير منتجات متنوعة بأسعار تناسب كل شرائح المجتمع، ومكافحة الغلاء على المستوى الوطني. نلتزم بتقديم خدمة راقية للعملاء، وتشجيع الشركات الوطنية الصغيرة والمتوسطة. نهتم بتوفير حياة كريمة للعاملين باعتبارهم رأس المال الحقيقي للمؤسسة، ونرسّخ قيم المشاركة المجتمعية لرفع المعاناة عن كاهل المجتمع المصري.',
+      en: 'Fathalla is a national project that aims to meet customer needs by offering a wide variety of products at prices suitable for all social classes, combating inflation on a national level. We are committed to high-quality customer service, supporting small and medium-sized national companies, ensuring a decent life for our employees as the real capital of the institution, and strengthening community participation values to relieve burdens from Egyptian society.',
+    },
+    visionTitle: { ar: 'رؤيتنا', en: 'Our Vision' },
+    visionDesc: {
+      ar: 'نطمح لأن نكون الوجهة الأكثر جذبًا للعملاء، وأن تنتشر فروعنا في جميع محافظات مصر، لنلبي احتياجات كل منزل ونحول التسوق اليومي إلى تجربة ممتعة ومريحة، مع ضمان الجودة والأسعار التنافسية.',
+      en: 'Our vision is to become the most attractive destination for customers, expanding across all governorates of Egypt, fulfilling every household’s needs, and transforming daily shopping into an enjoyable and comfortable experience with guaranteed quality and competitive prices.',
+    },
+    missionTitle: { ar: 'مهمتنا', en: 'Our Mission' },
+    missionDesc: {
+      ar: 'نسعى دائمًا لتقديم أفضل المنتجات بأعلى جودة وبأقل سعر، عبر الاستيراد المباشر والتعبئة والتصنيع، لتصل السلع للمستهلك بدون وسطاء وبأسهل وأسرع الوسائل، مع ضمان رضا العميل وسعادته.',
+      en: 'Our mission is to always provide the best products with the highest quality at the lowest price, through direct import, packaging, and production, ensuring that goods reach consumers without intermediaries, quickly and easily, while guaranteeing their satisfaction and happiness.',
+    },
     description: {
       ar: 'لأكثر من 70 عاماً، تخدم أسواق فتح الله المجتمع بتفانٍ وتميز. نحن ملتزمون بتقديم أفضل تجربة تسوق مع منتجات عالية الجودة وأسعار تنافسية.',
       en: 'For over 70 years, Fathalla Markets has been serving the community with dedication and excellence. We are committed to providing the best shopping experience with high-quality products at competitive prices.',
@@ -159,6 +184,10 @@ export const translations = {
     subtitle: {
       ar: 'ابحث عن أقرب فرع لفتح الله ماركت. لدينا فروع متعددة في جميع أنحاء مصر لخدمتكم بشكل أفضل.',
       en: 'Find a Fathalla Market near you. We have multiple locations across Egypt to serve you better.',
+    },
+    history: {
+      ar: 'بدأنا أول فروعنا بإيمان راسخ بأهمية احترام المستهلك والاتصال المباشر به. واليوم نفخر بانتشار عشرات الفروع في مختلف المحافظات، لنقترب أكثر من عملائنا أينما كانوا.',
+      en: 'We launched our first branches with a strong belief in respecting consumers and building direct communication with them. Today, we are proud of our dozens of branches across different governorates, bringing us closer to our customers wherever they are.',
     },
     getDirections: { ar: 'الاتجاهات', en: 'Directions' },
     allAreas: { ar: 'جميع المناطق', en: 'All Areas' },

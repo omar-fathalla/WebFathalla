@@ -36,7 +36,11 @@ export function Branches() {
             {t(br.title1, lang)}{' '}
             <span className="text-[#f8931f]">{t(br.titleHighlight, lang)}</span>
           </h2>
-          <p className="text-xl text-[#713d00] max-w-3xl mx-auto" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+          <p className="text-xl text-[#713d00] max-w-3xl mx-auto mb-6" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+            {/* @ts-ignore */}
+            {t(br.history, lang)}
+          </p>
+          <p className="text-[#713d00]/80 max-w-2xl mx-auto" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
             {t(br.subtitle, lang)}
           </p>
         </AnimatedSection>
