@@ -17,11 +17,11 @@ export function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#f8931f] rounded-lg overflow-hidden flex items-center justify-center shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden flex items-center justify-center shrink-0">
                 <img 
                   src={logoImage} 
                   alt="Fathalla Market Logo" 
-                  className="w-full h-full object-contain p-1"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <h1 className="text-lg sm:text-2xl text-white font-bold whitespace-nowrap">{t(nav.brandName, lang)}</h1>
@@ -97,11 +97,11 @@ export function Navbar() {
         <div>
           <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#f8931f] rounded-lg overflow-hidden flex items-center justify-center shrink-0">
+              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center shrink-0">
                 <img 
                   src={logoImage} 
                   alt="Fathalla Market Logo" 
-                  className="w-full h-full object-contain p-1"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <span className="text-xl font-bold text-white whitespace-nowrap">{t(nav.brandName, lang)}</span>
