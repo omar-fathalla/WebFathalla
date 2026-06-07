@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Phone } from 'lucide-react';
 import svgPaths from "../../imports/svg-vdelx866xc";
-import logoImage from "../../imports/fathalla-logo.jpg";
+import logoImage from "../../imports/fathalla-logo.png";
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 import { TermsModal } from './TermsModal';
@@ -20,11 +20,11 @@ export function Footer() {
             {/* About */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-[#f8931f] rounded-lg overflow-hidden">
+                <div className="w-10 h-10 bg-[#f8931f] rounded-lg overflow-hidden flex items-center justify-center shrink-0">
                   <img 
                     src={logoImage} 
                     alt="Fathalla Market Logo" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-1"
                   />
                 </div>
                 <h3 className="text-xl text-[#f8931f]">فتح الله ماركت</h3>
