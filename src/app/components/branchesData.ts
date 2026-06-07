@@ -89,7 +89,7 @@ export const branches: Branch[] = [
   },
   {
     id: 'sidi-bishr-35',
-    name: { ar: 'سيدي بشر 35', en: 'Sidi Bishr 35' },
+    name: { ar: 'سيدي بشر', en: 'Sidi Bishr' },
     address: { ar: '35 ش الصاغ عبد السلام، سيدي بشر', en: '35 El-Sagh Abdel Salam St., Sidi Bishr' },
     area: { ar: 'الإسكندرية', en: 'Alexandria' },
     mapUrl: 'https://maps.app.goo.gl/gxKDuznrVB5FvKXr6',
