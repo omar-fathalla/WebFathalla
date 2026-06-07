@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Phone } from 'lucide-react';
 import svgPaths from "../../imports/svg-vdelx866xc";
-import logoImage from "figma:asset/42faab0c6669490037b7f6549f9a617275106a3b.png";
+import logoImage from "../../imports/fathalla-logo.jpg";
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 import { TermsModal } from './TermsModal';

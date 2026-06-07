@@ -11,12 +11,12 @@ import { ScrollToTop } from './components/ScrollToTop';
 import { TopBar } from './components/TopBar';
 import { FloatingHotline } from './components/FloatingHotline';
 import { LanguageProvider } from './components/LanguageContext';
-import heroImage from 'figma:asset/412f4955d01987800b94e8979b57ee116cbf86a1.png';
+import heroImage from '../imports/supermarket_hero.png';
 
 export default function App() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-[#fffbff]" style={{ fontFamily: "'Cairo', sans-serif" }}>
+      <div className="min-h-screen bg-[#fffbff] overflow-x-hidden" style={{ fontFamily: "'Cairo', sans-serif" }}>
         <TopBar />
         <Navbar />
         <Hero heroImage={heroImage} />

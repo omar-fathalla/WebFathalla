@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="100%" height="100%">
+  <!-- Juhayna Flower/Tree symbol -->
+  <path d="M100,15 C95,25 85,25 80,35 C90,35 95,28 100,22 C105,28 110,35 120,35 C115,25 105,25 100,15 Z" fill="#0d7e40" />
+  <circle cx="100" cy="10" r="3" fill="#ff8c00" />
+  <circle cx="92" cy="13" r="2.5" fill="#ff8c00" />
+  <circle cx="108" cy="13" r="2.5" fill="#ff8c00" />
+  
+  <!-- Juhayna Text -->
+  <text x="100" y="55" font-family="'Cairo', sans-serif" font-weight="bold" font-size="20" fill="#0d7e40" text-anchor="middle">جهينة</text>
+  <text x="100" y="72" font-family="'Montserrat', sans-serif" font-weight="900" font-size="11" fill="#0d7e40" letter-spacing="3" text-anchor="middle">JUHAYNA</text>
+</svg>

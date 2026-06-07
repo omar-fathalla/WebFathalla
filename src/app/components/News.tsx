@@ -5,39 +5,26 @@ import { AnimatedSection, AnimatedCard } from './AnimationWrappers';
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 
-// Import images from Tunisi slideshow
-import imgMg0613_Tunisi from "figma:asset/74e4308cad30864484de719a287bcb82185cb92a.png";
-import imgMg0615_Tunisi from "figma:asset/584c786ec90234b2bd8b709a522ef9e4fd635e90.png";
-import imgMg0619_Tunisi from "figma:asset/b1908aa437df22b746d4a82691af9138e03396ab.png";
-import imgMg0596_Tunisi from "figma:asset/fe855244ee59c77e36a5318a424750d6cf004001.png";
-import imgMg0598_Tunisi from "figma:asset/c8df1658cce6f6331f3cca353d966121e71497d4.png";
-import imgMg0599_Tunisi from "figma:asset/20ad1018164f7b3b22ccd85217a410d19fa07537.png";
-import imgMg0600_Tunisi from "figma:asset/2060354063aaa98d2442bed9f93566cfefe7b1ad.png";
-import imgMg0608_Tunisi from "figma:asset/84548a22aff1fa0c0535806a9fb298c6e676550d.png";
-
-// Import images from Hospital slideshow
-import imgMg0613_Hospital from "figma:asset/d7336adf9f8574500682a0adece769ec7f75a62b.png";
+// Import generated images
+import imgTunisi1 from "../../imports/tunisi_1.jpg";
+import imgTunisi2 from "../../imports/tunisi_2.jpg";
+import imgTunisi3 from "../../imports/tunisi_3.jpg";
+import imgTunisi4 from "../../imports/tunisi_4.jpg";
+import imgHospital1 from "../../imports/hospital_1.jpg";
+import imgHospital2 from "../../imports/hospital_2.jpg";
+import imgHospital3 from "../../imports/hospital_3.jpg";
 
 const articleImages = [
   [
-    imgMg0613_Tunisi,
-    imgMg0596_Tunisi,
-    imgMg0600_Tunisi,
-    imgMg0615_Tunisi,
-    imgMg0598_Tunisi,
-    imgMg0608_Tunisi,
-    imgMg0619_Tunisi,
-    imgMg0599_Tunisi,
+    imgTunisi1,
+    imgTunisi2,
+    imgTunisi3,
+    imgTunisi4,
   ],
   [
-    imgMg0613_Hospital,
-    imgMg0615_Tunisi,
-    imgMg0619_Tunisi,
-    imgMg0596_Tunisi,
-    imgMg0598_Tunisi,
-    imgMg0599_Tunisi,
-    imgMg0600_Tunisi,
-    imgMg0608_Tunisi,
+    imgHospital1,
+    imgHospital2,
+    imgHospital3,
   ],
 ];
 
