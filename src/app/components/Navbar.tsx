@@ -1,7 +1,7 @@
 import { Menu, X, Globe, Phone } from 'lucide-react';
 import { useState } from 'react';
 import svgPaths from "../../imports/svg-vdelx866xc";
-import logoImage from "../../imports/fathalla-logo.png";
+import logoImage from "../../imports/1024x1024.png";
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 
