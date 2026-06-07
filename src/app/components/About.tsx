@@ -3,7 +3,7 @@ import { AnimatedSection, AnimatedCard, AnimatedStagger, AnimatedStaggerItem } f
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import aboutImage from '../../imports/DSC06636.jpg';
+import aboutImage from '../../imports/about-us.png';
 
 export function About() {
   const { lang } = useLanguage();
