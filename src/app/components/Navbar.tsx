@@ -1,7 +1,7 @@
 import { Menu, X, Globe, Phone } from 'lucide-react';
 import { useState } from 'react';
 import svgPaths from "../../imports/svg-vdelx866xc";
-import logoImage from "../../imports/1024x1024.png";
+import logoImage from "../../imports/image.png";
 import { useLanguage } from './LanguageContext';
 import { translations, t } from './translations';
 
@@ -14,14 +14,14 @@ export function Navbar() {
     <>
       <nav className="bg-black sticky top-0 z-40 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-28 sm:h-32">
             {/* Logo */}
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden flex items-center justify-center shrink-0">
+              <div className="w-20 h-20 sm:w-28 sm:h-28 overflow-hidden flex items-center justify-center shrink-0">
                 <img 
                   src={logoImage} 
                   alt="Fathalla Market Logo" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain rounded-xl"
                 />
               </div>
               <h1 className="text-lg sm:text-2xl text-white font-bold whitespace-nowrap">{t(nav.brandName, lang)}</h1>
@@ -97,11 +97,11 @@ export function Navbar() {
         <div>
           <div className="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center shrink-0">
+              <div className="w-20 h-20 overflow-hidden flex items-center justify-center shrink-0">
                 <img 
                   src={logoImage} 
                   alt="Fathalla Market Logo" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain rounded-xl"
                 />
               </div>
               <span className="text-xl font-bold text-white whitespace-nowrap">{t(nav.brandName, lang)}</span>
